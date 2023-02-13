@@ -14,6 +14,7 @@ let userEntries = [];
 // let retrievedEntries = retrieveEntries();
 
 const displayEntries = () => {
+  userEntries = retrieveEntries();
   const entries = retrieveEntries();
   let tableEntries = entries
     .map((entry) => {
